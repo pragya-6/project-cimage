@@ -1,0 +1,5 @@
+(node:32564) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2m9:31:26 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mEach child in a list should have a unique "key" prop.
+
+Check the render method of `EditableModule`. See https://react.dev/link/warning-keys for more information.
