@@ -1,0 +1,15 @@
+node:_http_server:368
+    throw new ERR_HTTP_HEADERS_SENT('write');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot write headers after they are sent to the client
+    at ServerResponse.writeHead (node:_http_server:368:11)
+    at sendJson (file:///D:/project%20cimage/server.js:139:12)
+    at Server.<anonymous> (file:///D:/project%20cimage/server.js:285:5)
+    at Server.emit (node:events:509:20)
+    at parserOnIncoming (node:_http_server:1327:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:125:17) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v26.1.0
